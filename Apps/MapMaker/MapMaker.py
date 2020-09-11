@@ -2,7 +2,7 @@ import folium
 from geopy.geocoders import Nominatim
 
 nom  = Nominatim(user_agent="G")
-n = nom.geocode("3995 23rd St,CA 94114")
+n = nom.geocode(input("Enter Address : "))#3995 23rd St,CA 94114
 #print(n.address)
 #print(n.point)
 print(n.latitude)
